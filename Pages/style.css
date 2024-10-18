@@ -1,0 +1,288 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(/assets/img/Black\ Spider\ Web\ Designer\ Wall\ Mural.jpg);
+    background-size: cover;
+    color:#ededed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    z-index: 1000;
+    margin-right: 90px;
+}
+
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
+}
+
+.navbar a{
+    font-size: 16px;
+    color: #ededed;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.76);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 100px;
+    transition:.3s;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #F2EDA2;
+    text-decoration: underline;
+}
+
+
+.feature-img{
+    max-width: 100%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    z-index: -1;
+}
+
+.home{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content{
+    max-width:600px;
+    height:90vh;
+    padding-top: 80px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.76);
+}
+
+.home-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ededed;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+.home-content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #F2EDA2;
+    margin-bottom: 20px;
+}
+
+.home-content p{
+    color:#ededed;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.text-box{
+    font-weight: 700;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: -90px;
+    width: 599px;
+    height: 28vh;
+    padding: 10px 25px;
+    right: 600px;
+    background-color:rgba(0, 0, 0, 0.339);
+    border-radius:15px;
+    color: white;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.031)), rgba(0, 0, 0, 0.178);
+    backdrop-filter: blur(10px);
+}
+.upper{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.bottom{
+    color: #ededed;
+}
+
+.feu{
+    background: url(/assets/img/red\ bg.jpg) no-repeat;
+    background-size: cover;
+    color:#ededed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.education-content{
+    max-width:600px;
+    height: 90vh;
+    padding-top: 80px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.76);
+}
+
+.education-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ededed;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    white-space: nowrap;
+
+}
+
+.education-content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #3ece64;
+    margin-bottom: 20px;
+}
+
+.education-box{
+    font-weight: 600;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 400px;
+    width: 599px;
+    height: 70vh;
+    padding: 20px 20px;
+    left: 140px;
+    background-color:rgba(0, 0, 0, 0.339);
+    border-radius:15px;
+    color: white;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.031)), rgba(0, 0, 0, 0.178);
+    backdrop-filter: blur(10px);
+}
+
+.wrapper{
+    padding:10px 10px;
+}
+
+#card-area{
+    padding: 50px 0;
+}
+
+.box{
+    border-radius: 70px;
+    position: relative;
+    overflow: hidden;
+    height: 160vh;
+    bottom: 60px;
+    width: 100%;
+    right: 200px;
+    transform: scale(0.5);
+    z-index: 1;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.709);
+}
+
+.updates-box{
+    font-weight: 600;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 100px;
+    width: 900px;
+    height: 40vh;
+    padding: 20px 20px;
+    left: 270px;
+    background-color:rgba(0, 0, 0, 0.339);
+    border-radius:15px;
+    color: white;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.449);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.449)), rgba(0, 0, 0, 0.449);
+    backdrop-filter: blur(10px);
+
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 0;
+    text-align: center;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10%;
+}
+
+.media-item {
+    flex: 0 0 30%;
+    max-width: 30%;
+    color: #fff;
+    text-align: center;
+}
+
+.media {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 15px 15px 9px rgba(0, 0, 0, 0.449);
+}
+
+.text{
+    padding-right: 0%;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.76);
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ededed;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.76);
+}
